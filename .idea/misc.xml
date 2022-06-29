@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/astro/AndroidStudioProjects/RemoteWidget/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.1175" />
+        <entry key="..\:/astro/AndroidStudioProjects/RemoteWidget/app/src/main/res/drawable/gradient.xml" value="0.13" />
+        <entry key="..\:/astro/AndroidStudioProjects/RemoteWidget/app/src/main/res/drawable/ic_image.xml" value="0.1175" />
+        <entry key="..\:/astro/AndroidStudioProjects/RemoteWidget/app/src/main/res/drawable/ic_image_search.xml" value="0.1175" />
+        <entry key="..\:/astro/AndroidStudioProjects/RemoteWidget/app/src/main/res/drawable/ic_refresh.xml" value="0.1755" />
+        <entry key="..\:/astro/AndroidStudioProjects/RemoteWidget/app/src/main/res/layout/widget_error_layout.xml" value="0.25" />
+        <entry key="..\:/astro/AndroidStudioProjects/RemoteWidget/app/src/main/res/layout/widget_initial_layout.xml" value="0.24895833333333334" />
+        <entry key="..\:/astro/AndroidStudioProjects/RemoteWidget/app/src/main/res/xml/provider_path.xml" value="0.25" />
+        <entry key="..\:/astro/AndroidStudioProjects/RemoteWidget/app/src/main/res/xml/widget_defaults.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

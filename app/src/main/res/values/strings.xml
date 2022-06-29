@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RemoteWidget</string>
+    <string name="widget_description">Widget that generates images according to your specified category</string>
+    <string name="widget_error_message">Hmm… A network error occurred, The internet connection appears to be offline</string>
+</resources>

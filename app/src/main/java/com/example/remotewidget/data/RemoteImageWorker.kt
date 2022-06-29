@@ -50,7 +50,7 @@ class RemoteImageWorker(
                         FileOutputStream(imageFile).use { stream ->
                             stream.write(it.bytes())
                         }
-                        // deleting the previous image before adding new one
+                        // deleting the previous image
                         context.filesDir.listFiles()?.let {
                             for (file in it) {
                                 if (file.path.endsWith(".jpg") && file.path != imageFile.path)
@@ -74,9 +74,8 @@ class RemoteImageWorker(
 
     private suspend fun updateRemoteImageWidget(imageUri: String) {
         GlanceAppWidgetManager(context).getGlanceIds(RemoteWidget::class.java).forEach { glanceId ->
-            updateAppWidgetState(context, CustomGlanceStateDefinition, glanceId) { pref ->
-                pref.toMutablePreferences()[stringPreferencesKey(FILE_URI)] = imageUri
-                pref
+            updateAppWidgetState(context, glanceId) { pref ->
+                pref[stringPreferencesKey(FILE_URI)] = imageUri
             }
             RemoteWidget().updateAll(context)
         }

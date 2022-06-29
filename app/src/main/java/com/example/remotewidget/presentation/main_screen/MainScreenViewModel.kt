@@ -41,7 +41,7 @@ class MainScreenViewModel (
         val constraints = Constraints.Builder()
             .setRequiredNetworkType(NetworkType.CONNECTED)
             .build()
-        val work = PeriodicWorkRequestBuilder<RemoteImageWorker>(5, TimeUnit.MINUTES)
+        val work = PeriodicWorkRequestBuilder<RemoteImageWorker>(15, TimeUnit.MINUTES)
             .setConstraints(constraints)
             .setInputData(inputData)
             .build()

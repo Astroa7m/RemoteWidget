@@ -11,7 +11,6 @@ import androidx.work.workDataOf
 import com.example.remotewidget.extra.Constants.DataStoreConstants.FILE_URI
 import com.example.remotewidget.extra.Constants.WorkerConstants.CURRENT_CATEGORY
 import com.example.remotewidget.extra.Constants.WorkerConstants.ERROR_MESSAGE
-import com.example.remotewidget.presentation.component.CustomGlanceStateDefinition
 import com.example.remotewidget.presentation.component.RemoteWidget
 import com.example.remotewidget.presentation.main_screen.categories
 import java.io.File

@@ -13,9 +13,6 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import java.util.concurrent.TimeUnit
 
-// TODO: fix to check if its first time to launch the app or not
-// TODO: fix when adding a new widget we get glance error
-
 class MainScreenViewModel (
     application: Application
 ) : ViewModel() {
